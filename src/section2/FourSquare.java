@@ -5,8 +5,8 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class FourSquare {
 	
-	// 2. Create a new Robot
-
+	// 2. Robot robot = robot
+	Robot robot =  new Robot(); 
 	void go() {
 		// 4. Make the robot move as fast as possible
 
@@ -17,7 +17,8 @@ public class FourSquare {
 			// 7. Set the pen color to random
 	
 			// 1. Call the drawSquare() method
-	
+			drawSquare();
+			 
 			// 8. Turn the robot 90 degrees to the right
 
 	}

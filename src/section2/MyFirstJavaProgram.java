@@ -11,10 +11,14 @@ public class MyFirstJavaProgram {
 	robot.penDown();
 	robot.setPenColor(Color.blue);
 	
+	robot.setSpeed(100);
+	
 	robot.move(100);
 	robot.turn(90);
     robot.move(100);
-
+    robot.Turn(90);
+    //"Sophia
+    robot.move(100);
     
 	}
 }
