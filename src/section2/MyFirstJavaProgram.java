@@ -6,7 +6,7 @@ import org.jointheleague.graphical.robot.Robot;
 public class MyFirstJavaProgram {
 	
 	public static void main(String[] args) {
-	
+	// 
 	Robot robot = new Robot ();
 	robot.penDown();
 	robot.setPenColor(Color.blue);
