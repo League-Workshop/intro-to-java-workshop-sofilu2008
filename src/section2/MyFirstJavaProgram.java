@@ -7,7 +7,7 @@ public class MyFirstJavaProgram {
 	
 	public static void main(String[] args) {
 	// 
-	Robot robot = new Robot ();
+	Robot robot = new Robot();
 	robot.penDown();
 	robot.setPenColor(Color.blue);
 	
@@ -16,10 +16,11 @@ public class MyFirstJavaProgram {
 	robot.move(100);
 	robot.turn(90);
     robot.move(100);
-    robot.Turn(90);
-    //"Sophia
-    robot.move(100);
-    
+    robot.turn(90);
+robot.move(100);
+    robot.turn(90);
+	robot.move(100);
+	
 	}
 }
     
